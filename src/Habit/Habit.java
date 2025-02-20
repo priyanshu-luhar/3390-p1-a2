@@ -1,6 +1,7 @@
 package Habit;
 
 import javax.swing.*;
+import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -27,11 +28,15 @@ public class Habit {
         Habit habit = new Habit();
         JFrame myFrame = new JFrame("Luhar Habit Tracker");
 
+        Font myFont = new Font("Courier New", Font.PLAIN, 36);
+
         int w = 1000;
         int h = 700;
 
         myFrame.setSize(w, h);
-        habit.panelMain.setBorder(BorderFactory.createLineBorder(Color.WHITE, 15));
+
+        habit.panelMain.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.yellow, 4),
+                "My Habbit Tracker Pro", TitledBorder.DEFAULT_JUSTIFICATION, 0, myFont));
         //habit.panelMain.setBorder(BorderFactory.createLineBorder(Color.WHITE, 15));
         habit.panelMain.setBackground(Color.GRAY);
         habit.panelMain.setForeground(Color.lightGray);
