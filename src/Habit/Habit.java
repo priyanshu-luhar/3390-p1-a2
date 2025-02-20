@@ -23,7 +23,9 @@ public class Habit {
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                String currentTime = getTime();
+                String logInput = inputBox.getText() + " && " + currentTime;
+                inputBox.setText("");
 
             }
         });
@@ -43,7 +45,7 @@ public class Habit {
         myFrame.setSize(w, h);
 
         habit.panelMain.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.yellow, 4),
-                "My Habbit Tracker Pro", TitledBorder.DEFAULT_JUSTIFICATION, 0, myFont));
+                "My Habit Tracker Pro", TitledBorder.DEFAULT_JUSTIFICATION, 0, myFont));
         //habit.panelMain.setBorder(BorderFactory.createLineBorder(Color.WHITE, 15));
         habit.panelMain.setBackground(Color.GRAY);
         habit.panelMain.setForeground(Color.lightGray);
