@@ -3,6 +3,7 @@ package Habit;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -28,6 +29,9 @@ public class Habit {
         myModel.addColumn("Habit");
         myModel.addColumn("DATE");
         myTable.setModel(myModel);
+        JTableHeader header = myTable.getTableHeader();
+        header.setFont(header.getFont().deriveFont(30f));
+        myTable.setRowHeight(24);
 
         addButton.addActionListener(new ActionListener() {
             @Override
