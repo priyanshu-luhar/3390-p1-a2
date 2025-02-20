@@ -18,13 +18,18 @@ public class Habit {
     private JTextField inputBox;
     private JButton addButton;
     private JLabel hlable;
-    public Object[][] data = {{"a", "b"}};
-    private String Filename = "previous.txt";
+    public Object[][] data;
+    private final String Filename;
+    private final String backup;
     private JTable myTable;
     private JScrollPane myPane;
     private DefaultTableModel myModel;
 
     public Habit() {
+        // Instantiaiton
+        Filename = "previous.txt";
+        backup = "bac/backup.txt";
+
         myModel = new DefaultTableModel();
         myModel.addColumn("Habit");
         myModel.addColumn("DATE");
