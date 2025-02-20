@@ -38,16 +38,28 @@
           <text value=" HABIT :"/>
         </properties>
       </component>
-      <component id="e9056" class="javax.swing.JTable" binding="myTable">
+      <scrollpane id="1a0e5" binding="myPane">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
         </constraints>
-        <properties>
-          <autoCreateRowSorter value="true"/>
-        </properties>
-      </component>
+        <properties/>
+        <border type="none" title="Habit"/>
+        <children>
+          <component id="e9056" class="javax.swing.JTable" binding="myTable">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+              <dropMode value="ON"/>
+              <enabled value="true"/>
+              <fillsViewportHeight value="true"/>
+              <font name="Droid Sans Mono" size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <gridColor color="-5785944"/>
+              <selectionForeground color="-12655161"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
     </children>
   </grid>
 </form>
