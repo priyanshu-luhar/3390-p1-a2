@@ -19,11 +19,6 @@
           <toolTipText value="Type your habit in this text box"/>
         </properties>
       </component>
-      <vspacer id="8a4e1">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
       <component id="34af7" class="javax.swing.JButton" binding="addButton">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
@@ -41,6 +36,16 @@
         <properties>
           <font name="Impact" size="28" style="0"/>
           <text value=" HABIT :"/>
+        </properties>
+      </component>
+      <component id="e9056" class="javax.swing.JTable" binding="myTable">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoCreateRowSorter value="true"/>
         </properties>
       </component>
     </children>

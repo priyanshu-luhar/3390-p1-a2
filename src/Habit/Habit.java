@@ -5,18 +5,25 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class Habit {
     private JPanel panelMain;
     private JTextField inputBox;
     private JButton addButton;
     private JLabel hlable;
-
+    private JTable myTable;
+    public String[] columnNames = {"Habit", "Date"};
+    public Object[][] data = {{"my Habit one", }};
 
     public Habit() {
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
 
             }
         });
@@ -25,9 +32,9 @@ public class Habit {
     public static void main(String[] args) {
         System.out.println("Starts.");
 
+
         Habit habit = new Habit();
         JFrame myFrame = new JFrame("Luhar Habit Tracker");
-
         Font myFont = new Font("Courier New", Font.PLAIN, 36);
 
         int w = 1000;
@@ -56,4 +63,14 @@ public class Habit {
 
         myFrame.setVisible(true);
     }
+
+    public String getTime() {
+        // Get the current date and time
+        ZonedDateTime now = ZonedDateTime.now();
+        // Define the format
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE MMM dd HH:mm:ss zzz yyyy");
+        // Format the current date and time
+        return now.format(formatter);
+    }
+
 }
