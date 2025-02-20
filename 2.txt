@@ -1,0 +1,2376 @@
+[Priyanshu Luhar] 05:20:53
+Hello again. My name is Priyan Shaduhar. This is a recording log While I'm trying to solve the project part two of project one for CMPS 3390 for the class.
+
+[Priyanshu Luhar] 05:21:12
+For the semester spring 2023 at CSUB Okay.
+
+[Priyanshu Luhar] 05:21:19
+We've already finished. Application one which was building a hello application I started at one. I was done before two hours before Since then, I took a break.
+
+[Priyanshu Luhar] 05:21:35
+Got something to eat. Finish my drink and now we are going to finish our final app too because my presentation is in About three hours and 39 minutes so We need to be ready.
+
+[Priyanshu Luhar] 05:21:53
+Now, as… I recall.
+
+[Priyanshu Luhar] 05:21:57
+I can just make another window. I would be pulled
+
+[Priyanshu Luhar] 05:22:11
+And do this. Over here.
+
+[Priyanshu Luhar] 05:22:19
+Okay, New Day.
+
+[Priyanshu Luhar] 05:22:30
+I'm tired. I still haven't left campus. And just to prove that 22 this in Bakersfield, California, and the gov This clock is synced up to that.
+
+[Priyanshu Luhar] 05:22:44
+I'm not faking it. Here we are. Okay.
+
+[Priyanshu Luhar] 05:22:50
+We don't need to open canvas. Yep, here we are.
+
+[Priyanshu Luhar] 05:22:58
+Okay, there are two options for Two, one is habit tracker.
+
+[Priyanshu Luhar] 05:23:04
+And one is indecision Machine.
+
+[Priyanshu Luhar] 05:23:09
+I can wait, just make a choice.
+
+[Priyanshu Luhar] 05:23:15
+Stretch go. Yeah, since we're low on time, I'll go with the easier option.
+
+[Priyanshu Luhar] 05:23:22
+Which is… we have a view, a table data grid with this assessment, a label with text habit and input field button with the text add Okay.
+
+[Priyanshu Luhar] 05:23:41
+Trigger a listener to detect the current date time add a habit along with the date time into the data grid.
+
+[Priyanshu Luhar] 05:23:48
+Clear the text input fill. Yield. Okay.
+
+[Priyanshu Luhar] 05:23:54
+Seems reasonable enough. And then I think we'll eliminate these save and load buttons and just to this every time the program is launched.
+
+[Priyanshu Luhar] 05:24:06
+It will load everything from a file And once anyone clicks add And there are no input validation flags.
+
+[Priyanshu Luhar] 05:24:19
+Then we'll just write it at the bottom of every input.
+
+[Priyanshu Luhar] 05:24:26
+So. Let's get started.
+
+[Priyanshu Luhar] 05:24:31
+Document everything. Yeah, you got to document everything. So since I already just finished My lab.
+
+[Priyanshu Luhar] 05:24:41
+My son went two. So what we'll do.
+
+[Priyanshu Luhar] 05:24:47
+Hello, application.
+
+[Priyanshu Luhar] 05:24:52
+Upon.
+
+[Priyanshu Luhar] 05:24:59
+I have two, command O. One, we…
+
+[Priyanshu Luhar] 05:25:06
+Okay, let's put this one.
+
+[Priyanshu Luhar] 05:25:14
+Well, this is the same because I didn't have the set of anything more than that.
+
+[Priyanshu Luhar] 05:25:18
+We decided to change this. So time started, I guess I'll just remove these three
+
+[Priyanshu Luhar] 05:25:35
+I just need this as a template. What a time.
+
+[Priyanshu Luhar] 05:25:42
+Okay. First part. For this research resource i'm not going to do anything Because I already know how to get most of it set up so we'll go at it in chronological order.
+
+[Priyanshu Luhar] 05:25:59
+I don't know why GitHub is better on here. So we'll make a new github repository
+
+[Priyanshu Luhar] 05:26:08
+This one is 3390. A1.
+
+[Priyanshu Luhar] 05:26:15
+A2, okay? Description don't need it.
+
+[Priyanshu Luhar] 05:26:20
+And a readme file. I'll add it afterwards. Create repository.
+
+[Priyanshu Luhar] 05:26:27
+And once we're ready, we have the SSH. We go to IntelliJ.
+
+[Priyanshu Luhar] 05:26:32
+Oh, I forgot to start this up again. This is the lab one. This was when I was done with application one. So let's start it up again Let's see if we can get this done within two hours too.
+
+[Priyanshu Luhar] 05:26:48
+Oh, okay. I don't see here, this, this, this, this.
+
+[Priyanshu Luhar] 05:26:53
+Init. Oh, okay. My brain is also running a little slower than usual because I haven't And I also did a project before I started working on this so I was already sleep deprived and was already kind of burnt out, but we'll take care of it.
+
+[Priyanshu Luhar] 05:27:16
+This will open IntelliJ.
+
+[Priyanshu Luhar] 05:27:23
+I'll put this somewhere on here, okay? So.
+
+[Priyanshu Luhar] 05:27:29
+Let's make a new application. New project.
+
+[Priyanshu Luhar] 05:27:35
+Untitled this is hello so i'm just going to name it habit Location.
+
+[Priyanshu Luhar] 05:27:43
+I'm just going to say 3390 Project 1.
+
+[Priyanshu Luhar] 05:27:52
+Open. Create.
+
+[Priyanshu Luhar] 05:27:55
+Yeah, yeah. Everything seems fine. Yeah, we've already created a new application I'm just going to create new Let's just make a package.
+
+[Priyanshu Luhar] 05:28:08
+Uh in the package is going to be named
+
+[Priyanshu Luhar] 05:28:17
+What do I want to name it? Or we'll do something else.
+
+[Priyanshu Luhar] 05:28:27
+Resource bundle. Okay, I think the first time I did something like that to create a JAR file.
+
+[Priyanshu Luhar] 05:28:38
+I guess I should do it. Again, so for that, I used a resource
+
+[Priyanshu Luhar] 05:28:49
+Rename this. Love one.
+
+[Priyanshu Luhar] 05:29:03
+Paste this over here. Okay, yeah, this will work really nicely with this If we need to go, we'll watch.
+
+[Priyanshu Luhar] 05:29:14
+Other videos again.
+
+[Priyanshu Luhar] 05:29:22
+We are already on… some step. Create a new Java class okay
+
+[Priyanshu Luhar] 05:29:35
+Habit.
+
+[Priyanshu Luhar] 05:29:42
+And everything up there. And sisters.
+
+[Priyanshu Luhar] 05:29:50
+Okay. Public.
+
+[Priyanshu Luhar] 05:29:55
+Package condor example. World.
+
+[Priyanshu Luhar] 05:30:06
+Wait, what? The fact is last time.
+
+[Priyanshu Luhar] 05:30:21
+Okay, let me just go with our understanding if it doesn't work well, we'll figure it out.
+
+[Priyanshu Luhar] 05:30:32
+We'll work with this. Class.habit.
+
+[Priyanshu Luhar] 05:30:38
+Oh, you want to know what? Let's remove this.
+
+[Priyanshu Luhar] 05:30:45
+Delete.
+
+[Priyanshu Luhar] 05:30:49
+No we're going to have… have a package.
+
+[Priyanshu Luhar] 05:30:55
+On dot.
+
+[Priyanshu Luhar] 05:31:04
+I'm just going to name it. Have it.
+
+[Priyanshu Luhar] 05:31:11
+New. Gui form.
+
+[Priyanshu Luhar] 05:31:17
+Phone name. My habits.
+
+[Priyanshu Luhar] 05:31:29
+Oh yeah, I don't want these. Just delete them.
+
+[Priyanshu Luhar] 05:31:39
+Insert new Habit. Okay. Works well for me. Habit.java.
+
+[Priyanshu Luhar] 05:31:46
+This is here, certainly connected in this package. So we'll start with the first one.
+
+[Priyanshu Luhar] 05:31:55
+Public. Just haven't made.
+
+[Priyanshu Luhar] 05:32:01
+Okay.
+
+[Priyanshu Luhar] 05:32:06
+God. System. Done.
+
+[Priyanshu Luhar] 05:32:11
+Front line. Starts.
+
+[Priyanshu Luhar] 05:32:18
+Just run this thing. Okay, it works.
+
+[Priyanshu Luhar] 05:32:23
+So at least I didn't set up things the wrong way.
+
+[Priyanshu Luhar] 05:32:28
+In this. We have domain panel field name.
+
+[Priyanshu Luhar] 05:32:34
+And only. I'm just going to write it like this.
+
+[Priyanshu Luhar] 05:32:38
+And for this particular project, we already have a layout like this.
+
+[Priyanshu Luhar] 05:32:42
+Have a tracker, this and this. Went to the gym, did this, this.
+
+[Priyanshu Luhar] 05:32:51
+So we need a table input uh some text inputs over here and over here Unbutton. So, okay.
+
+[Priyanshu Luhar] 05:33:03
+J scroll pane
+
+[Priyanshu Luhar] 05:33:08
+Yeah, I want it to be scrollable. Checkbox.
+
+[Priyanshu Luhar] 05:33:13
+Formatted text field.
+
+[Priyanshu Luhar] 05:33:17
+Combo box. J table.
+
+[Priyanshu Luhar] 05:33:32
+No, the button will go down here.
+
+[Priyanshu Luhar] 05:33:40
+Button will go somewhere around here.
+
+[Priyanshu Luhar] 05:34:02
+Steve was given me.
+
+[Priyanshu Luhar] 05:34:24
+How autumn. And I mean?
+
+[Priyanshu Luhar] 05:34:28
+Okay, tell me bottom. What I want down here is A.
+
+[Priyanshu Luhar] 05:34:37
+Jp, J checkbox label text field.
+
+[Priyanshu Luhar] 05:34:46
+And component to palette.
+
+[Priyanshu Luhar] 05:35:01
+Not this way.
+
+[Priyanshu Luhar] 05:35:10
+Next field. Let's Not that much.
+
+[Priyanshu Luhar] 05:35:15
+I'm going to have a button too. Let me move around there.
+
+[Priyanshu Luhar] 05:35:23
+First, let me change this.
+
+[Priyanshu Luhar] 05:35:29
+Lift. We'll just left.
+
+[Priyanshu Luhar] 05:35:34
+Wow, by the center.
+
+[Priyanshu Luhar] 05:35:39
+Let's start with the left. I'll have a button somewhere around here.
+
+[Priyanshu Luhar] 05:35:45
+To the right.
+
+[Priyanshu Luhar] 05:35:56
+Button add button
+
+[Priyanshu Luhar] 05:36:04
+Add.
+
+[Priyanshu Luhar] 05:36:10
+Plus. Or just this.
+
+[Priyanshu Luhar] 05:36:15
+Okay, that's that. Text field.
+
+[Priyanshu Luhar] 05:36:24
+Input box. It is.
+
+[Priyanshu Luhar] 05:36:31
+Can't grow, want to grow.
+
+[Priyanshu Luhar] 05:36:37
+Okay, so this is what we want. No.
+
+[Priyanshu Luhar] 05:36:42
+What we do here is our thing.
+
+[Priyanshu Luhar] 05:36:52
+First, let's go here. We already added a couple of things.
+
+[Priyanshu Luhar] 05:36:59
+Public static ward main.
+
+[Priyanshu Luhar] 05:37:10
+This is it. I have a bit faster.
+
+[Priyanshu Luhar] 05:37:23
+There should be something over here. Good.
+
+[Priyanshu Luhar] 05:37:28
+Because I already worked with the creation of
+
+[Priyanshu Luhar] 05:37:35
+These things. Deconstructors.
+
+[Priyanshu Luhar] 05:37:38
+So when we add a listener to these.
+
+[Priyanshu Luhar] 05:37:46
+Create listener. Action listener.
+
+[Priyanshu Luhar] 05:37:51
+Okay, yeah, just created. I haven't created it.
+
+[Priyanshu Luhar] 05:37:56
+No. What mean? These functions over here.
+
+[Priyanshu Luhar] 05:38:01
+Already added whatever it needed to add. So now what we're going to do is that we're going to make it make a window.
+
+[Priyanshu Luhar] 05:38:11
+Best way to do that. Copy this.
+
+[Priyanshu Luhar] 05:38:16
+Why? Because we've already done this before. There's no need.
+
+[Priyanshu Luhar] 05:38:22
+Two. Bang your head against it.
+
+[Priyanshu Luhar] 05:38:30
+Panelhead. Hello. Okay. Hello.
+
+[Priyanshu Luhar] 05:38:40
+Now we change with habit.
+
+[Priyanshu Luhar] 05:39:12
+Oh.
+
+[Priyanshu Luhar] 05:39:19
+You wanted to replace with…
+
+[Priyanshu Luhar] 05:39:24
+Regex.
+
+[Priyanshu Luhar] 05:39:32
+Okay. Have it.
+
+[Priyanshu Luhar] 05:39:41
+Have it. Have it.
+
+[Priyanshu Luhar] 05:39:56
+Dimension, color, this, this, this, okay.
+
+[Priyanshu Luhar] 05:40:02
+And button. How main works.
+
+[Priyanshu Luhar] 05:40:07
+What I need now. Have a tracker. I'll name it habit tracker.
+
+[Priyanshu Luhar] 05:40:16
+The name that was given to us by Professor Royer.
+
+[Priyanshu Luhar] 05:40:23
+New habit, habit, this, this, this. Panel main, my frame Yeah, this does all seem this all seems fine.
+
+[Priyanshu Luhar] 05:40:35
+Act button. There is no such thing as add button. Add button yeah that's correct.
+
+[Priyanshu Luhar] 05:40:43
+Input box. Okay, I'll have to… look over at input box.
+
+[Priyanshu Luhar] 05:40:51
+But for now, we have this running. Try running it variable color.
+
+[Priyanshu Luhar] 05:40:59
+Fine, simple.
+
+[Priyanshu Luhar] 05:41:07
+Hold on. Great.
+
+[Priyanshu Luhar] 05:41:14
+One. Starts. Okay.
+
+[Priyanshu Luhar] 05:41:19
+So we have something up here. Please, that's working. We'll change that.
+
+[Priyanshu Luhar] 05:41:26
+Because the dimensions for this are not set yet.
+
+[Priyanshu Luhar] 05:41:37
+Okay. Seems like it works.
+
+[Priyanshu Luhar] 05:41:41
+No. We'll change. Look about it.
+
+[Priyanshu Luhar] 05:41:45
+Because, well, I want there to be some sort of dimensions we want it to be…
+
+[Priyanshu Luhar] 05:41:57
+50. By 30.
+
+[Priyanshu Luhar] 05:42:01
+Let's see how that works. Stop and rewind.
+
+[Priyanshu Luhar] 05:42:06
+Yep, that's what we want 50 by 30. I want the add button to be Like, big.
+
+[Priyanshu Luhar] 05:42:17
+Have a square. So if I wanted a square
+
+[Priyanshu Luhar] 05:42:24
+Let's have it as… 70 by 70.
+
+[Priyanshu Luhar] 05:42:28
+Let's see how that looks.
+
+[Priyanshu Luhar] 05:42:33
+70 by 70. Yeah, this seems fine. So we'll change the habit tracker accordingly we'll change the dimensions for that.
+
+[Priyanshu Luhar] 05:42:47
+The input field was named input box So.
+
+[Priyanshu Luhar] 05:42:54
+Inbox, input docs. Habit dot input box dot that preferred size.
+
+[Priyanshu Luhar] 05:43:03
+New dimension. Which would be
+
+[Priyanshu Luhar] 05:43:14
+Can't do this, Otto. And T.
+
+[Priyanshu Luhar] 05:43:21
+I want this 70.
+
+[Priyanshu Luhar] 05:43:40
+Who have… auto birth.
+
+[Priyanshu Luhar] 05:43:46
+Showers going for. Input.
+
+[Priyanshu Luhar] 05:43:57
+Jtx field, search atoms.
+
+[Priyanshu Luhar] 05:44:03
+Okay, well, we'll look at that later. If you're interested but for now, let's just have it as Since our… dimensions are like 500 So 500 minus 70 plus let's say 10 on each side So 410.
+
+[Priyanshu Luhar] 05:44:23
+Let's run it. Let me see. Yep.
+
+[Priyanshu Luhar] 05:44:28
+Allows me to enter things. Pretty good.
+
+[Priyanshu Luhar] 05:44:34
+Change the input in the box as later on
+
+[Priyanshu Luhar] 05:44:41
+I don't want this button. To be full portable line.
+
+[Priyanshu Luhar] 05:44:47
+Center. Okay.
+
+[Priyanshu Luhar] 05:45:03
+Center. It doesn't want to go.
+
+[Priyanshu Luhar] 05:45:09
+Okay, but first we'll have to take care of other Zane G-list.
+
+[Priyanshu Luhar] 05:45:16
+What is it changed? J3.
+
+[Priyanshu Luhar] 05:45:20
+J tabbed pane. Is this a tab pane?
+
+[Priyanshu Luhar] 05:45:27
+Looks like a box with name on it.
+
+[Priyanshu Luhar] 05:45:32
+What happens if I add a table? J label.
+
+[Priyanshu Luhar] 05:45:39
+Shade text field.
+
+[Priyanshu Luhar] 05:45:46
+Input box. Center.
+
+[Priyanshu Luhar] 05:45:54
+Horizontal line let's keep it at center And we'll add a chain label.
+
+[Priyanshu Luhar] 05:46:09
+Habit.
+
+[Priyanshu Luhar] 05:46:14
+Let's say enter habit.
+
+[Priyanshu Luhar] 05:46:23
+Center. This is going to fill.
+
+[Priyanshu Luhar] 05:46:28
+Okay, let's on this. What size?
+
+[Priyanshu Luhar] 05:46:34
+Enter habit.
+
+[Priyanshu Luhar] 05:46:42
+Okay, let's see the input form. Input box.
+
+[Priyanshu Luhar] 05:46:48
+Default font we don't want default font Montandali Mono.
+
+[Priyanshu Luhar] 05:46:55
+Regular. Metallic.
+
+[Priyanshu Luhar] 05:47:00
+Size we want. 20.
+
+[Priyanshu Luhar] 05:47:05
+24 at least. Okay. Let's see this horizontal alignment.
+
+[Priyanshu Luhar] 05:47:13
+Leading text.
+
+[Priyanshu Luhar] 05:47:22
+Photo text.
+
+[Priyanshu Luhar] 05:47:29
+Enter your
+
+[Priyanshu Luhar] 05:47:35
+Good tab.
+
+[Priyanshu Luhar] 05:47:40
+Next.
+
+[Priyanshu Luhar] 05:47:46
+Okay, okay, okay. Indentation. I don't need any indentation. Nolly, mono, yes.
+
+[Priyanshu Luhar] 05:47:52
+Let's try running this now.
+
+[Priyanshu Luhar] 05:47:58
+So what happens when I go faster? Oh, just keep running it.
+
+[Priyanshu Luhar] 05:48:02
+That's good. This is how tall this is going to be. I should reduce it a little bit.
+
+[Priyanshu Luhar] 05:48:14
+So this is now just going to be
+
+[Priyanshu Luhar] 05:48:29
+Actually, you will default. So we have it.
+
+[Priyanshu Luhar] 05:48:35
+Label. No, we don't want default phones.
+
+[Priyanshu Luhar] 05:48:41
+Size and everything. Done on a regular 24.
+
+[Priyanshu Luhar] 05:48:51
+I want the same thing from here. So, I don't know.
+
+[Priyanshu Luhar] 05:48:57
+Regular. This is how this bold. Okay.
+
+[Priyanshu Luhar] 05:49:16
+Good. 50.
+
+[Priyanshu Luhar] 05:49:22
+50 seems to put that. Yeah, 50 seems okay.
+
+[Priyanshu Luhar] 05:49:30
+World. Okay, it doesn't do anything right now.
+
+[Priyanshu Luhar] 05:49:35
+There is not much to do at the moment. And I'll change the box size.
+
+[Priyanshu Luhar] 05:49:42
+This is not going to be 100. Width is not going to be 1,000.
+
+[Priyanshu Luhar] 05:49:50
+Height should be 700. Let's see how big it got.
+
+[Priyanshu Luhar] 05:49:56
+Yep, we see.
+
+[Priyanshu Luhar] 05:50:01
+Okay, this works. And type in whatever we want to add.
+
+[Priyanshu Luhar] 05:50:07
+Hello, world.
+
+[Priyanshu Luhar] 05:50:11
+Don't have it. Okay, now on to the next part.
+
+[Priyanshu Luhar] 05:50:17
+I want us to be that either. Change this to 50.
+
+[Priyanshu Luhar] 05:50:22
+And we'll let it.
+
+[Priyanshu Luhar] 05:50:27
+Stop and rerun. Add… just seems much more reasonable.
+
+[Priyanshu Luhar] 05:50:37
+I could add anything i want now i want a label over here.
+
+[Priyanshu Luhar] 05:50:44
+It's good. Okay. Add save load.
+
+[Priyanshu Luhar] 05:51:07
+Okay. I don't want this to be…
+
+[Priyanshu Luhar] 05:51:15
+Let's change this to something better.
+
+[Priyanshu Luhar] 05:51:49
+A, B, C, D, E, F, G, H. I… And… Here.
+
+[Priyanshu Luhar] 05:52:01
+Impact. Regular. Size 24.
+
+[Priyanshu Luhar] 05:52:05
+Let's see.
+
+[Priyanshu Luhar] 05:52:17
+Let's make it all caps.
+
+[Priyanshu Luhar] 05:52:45
+A little too small, so we'll change it. Change this.
+
+[Priyanshu Luhar] 05:52:53
+Two. 28. Okay.
+
+[Priyanshu Luhar] 05:52:59
+Openview run. Yeah, that seems better.
+
+[Priyanshu Luhar] 05:53:04
+We'll change the… add button to this font to because It's a little more readable.
+
+[Priyanshu Luhar] 05:53:29
+Okay. Let's see.
+
+[Priyanshu Luhar] 05:53:34
+Add, okay. We'll make the background for this button green in the foreground As… White. Okay.
+
+[Priyanshu Luhar] 05:53:48
+So. I could also make an application which just has a big plus on it, green plus on it.
+
+[Priyanshu Luhar] 05:53:58
+But let's just not do it.
+
+[Priyanshu Luhar] 05:54:07
+Okay. Habit dot.
+
+[Priyanshu Luhar] 05:54:12
+And button dot. Set background.
+
+[Priyanshu Luhar] 05:54:18
+Color.
+
+[Priyanshu Luhar] 05:54:25
+Green. Stop and rerun. I don't think the color worked last time too.
+
+[Priyanshu Luhar] 05:54:33
+Why not?
+
+[Priyanshu Luhar] 05:54:48
+Earlier.
+
+[Priyanshu Luhar] 05:54:54
+Why do they want to do that? I don't want to do this.
+
+[Priyanshu Luhar] 05:55:00
+Okay. Just let me confirm, is it recording? Yeah, okay, it's recording on both the ends.
+
+[Priyanshu Luhar] 05:55:07
+That's good. One, two, seven, around here.
+
+[Priyanshu Luhar] 05:55:15
+Make it a little brighter, a little darker. Okay, copy.
+
+[Priyanshu Luhar] 05:55:27
+Jump and rerun.
+
+[Priyanshu Luhar] 05:55:32
+Is it not making it green?
+
+[Priyanshu Luhar] 05:55:46
+J-frame.
+
+[Priyanshu Luhar] 05:55:50
+Let's do one thing. And X.
+
+[Priyanshu Luhar] 05:55:54
+We'll initialize this before that.
+
+[Priyanshu Luhar] 05:56:01
+Okay, let's solve this issue. Y is… Martin.
+
+[Priyanshu Luhar] 05:56:12
+Learning 9. Changing angel.
+
+[Priyanshu Luhar] 05:56:18
+Thank you.
+
+[Priyanshu Luhar] 05:56:24
+Button that said, okay? True. Okay. So… Yeah.
+
+[Priyanshu Luhar] 05:56:35
+Copy link.
+
+[Priyanshu Luhar] 05:56:45
+Change. Button.
+
+[Priyanshu Luhar] 05:56:50
+Round mother.
+
+[Priyanshu Luhar] 05:56:58
+556. I'm taken. One minute.
+
+[Priyanshu Luhar] 05:57:26
+Just run this now should show up as green. That's the background.
+
+[Priyanshu Luhar] 05:57:35
+I don't want that. You want the foreground.
+
+[Priyanshu Luhar] 05:57:42
+Stop and rerun. See how it goes. Okay, so now the down the screen.
+
+[Priyanshu Luhar] 05:57:55
+Hmm.
+
+[Priyanshu Luhar] 05:58:04
+That border painted. Falls.
+
+[Priyanshu Luhar] 05:58:10
+Okay. Yes, we have to do the same thing for the water.
+
+[Priyanshu Luhar] 05:58:17
+Button.
+
+[Priyanshu Luhar] 05:58:23
+Okay. False.
+
+[Priyanshu Luhar] 05:58:26
+Stop and rerun. Okay.
+
+[Priyanshu Luhar] 05:59:02
+Okay, brain assistance.
+
+[Priyanshu Luhar] 05:59:30
+How to add a borer to the entire panel. I would like to have some sort of black border for the entire panel.
+
+[Priyanshu Luhar] 05:59:55
+That border.
+
+[Priyanshu Luhar] 06:00:01
+Copy this.
+
+[Priyanshu Luhar] 06:00:16
+Set up and rerun. It has aligned water now.
+
+[Priyanshu Luhar] 06:00:26
+How do we change it?
+
+[Priyanshu Luhar] 06:00:53
+Width picks up so We'll change it from 20. Let's run this because that will make orders. Yep, I see the borders now.
+
+[Priyanshu Luhar] 06:01:12
+Now what I want in here the border to be
+
+[Priyanshu Luhar] 06:01:20
+A little… Forgiven.
+
+[Priyanshu Luhar] 06:01:33
+It's really dark. Let's do a little dark gray.
+
+[Priyanshu Luhar] 06:01:38
+Let's see if it… That seems good.
+
+[Priyanshu Luhar] 06:01:45
+No, I just want one big. Pane in here.
+
+[Priyanshu Luhar] 06:01:50
+That would let me have Peace.
+
+[Priyanshu Luhar] 06:01:55
+Habit. Trailing font.
+
+[Priyanshu Luhar] 06:02:12
+I wanted to be aligned into crystal right. So we'll change this.
+
+[Priyanshu Luhar] 06:02:19
+Center.
+
+[Priyanshu Luhar] 06:02:25
+We'll go to center this will go to Right.
+
+[Priyanshu Luhar] 06:02:33
+Center.
+
+[Priyanshu Luhar] 06:02:37
+Right.
+
+[Priyanshu Luhar] 06:03:00
+This seems better. This still doesn't seem Not much.
+
+[Priyanshu Luhar] 06:03:08
+Better.
+
+[Priyanshu Luhar] 06:03:27
+How does this look?
+
+[Priyanshu Luhar] 06:04:02
+That will be accepted first deport capable set action settings. Autoscopes.
+
+[Priyanshu Luhar] 06:04:10
+Disabled icon. You put focus painted.
+
+[Priyanshu Luhar] 06:04:19
+Icon.
+
+[Priyanshu Luhar] 06:04:29
+The text.ui is visible. Cursor.
+
+[Priyanshu Luhar] 06:04:39
+Focusable. Location.
+
+[Priyanshu Luhar] 06:05:00
+Focus.
+
+[Priyanshu Luhar] 06:05:10
+Yes.
+
+[Priyanshu Luhar] 06:05:38
+Focus journey.
+
+[Priyanshu Luhar] 06:05:55
+Okay, I'll need to open some shoes up. And… Okay.
+
+[Priyanshu Luhar] 06:06:07
+We're just back to where we started.
+
+[Priyanshu Luhar] 06:06:21
+Etched potter. We'll create an edge border.
+
+[Priyanshu Luhar] 06:06:28
+Border est order.
+
+[Priyanshu Luhar] 06:06:58
+Okay. One.
+
+[Priyanshu Luhar] 06:07:04
+Look into edge border. Since we already started on this.
+
+[Priyanshu Luhar] 06:07:18
+About… Four doors.
+
+[Priyanshu Luhar] 06:07:26
+This will sound like… maybe seven minutes after that.
+
+[Priyanshu Luhar] 06:07:31
+I'm still not done so create edge borders.
+
+[Priyanshu Luhar] 06:07:41
+So how means that order.
+
+[Priyanshu Luhar] 06:08:10
+Yadu.
+
+[Priyanshu Luhar] 06:08:19
+Mud gray. Button.
+
+[Priyanshu Luhar] 06:08:48
+How do I create…
+
+[Priyanshu Luhar] 06:10:28
+Okay.
+
+[Priyanshu Luhar] 06:10:44
+Change this.
+
+[Priyanshu Luhar] 06:10:52
+17 or 10.
+
+[Priyanshu Luhar] 06:11:55
+That's pretty cool.
+
+[Priyanshu Luhar] 06:12:35
+For our application, we just use a normal I'll just use a normal border.
+
+[Priyanshu Luhar] 06:12:44
+Because we normal like that.
+
+[Priyanshu Luhar] 06:13:05
+What is the clearwood border? Area.
+
+[Priyanshu Luhar] 06:13:09
+Matt.
+
+[Priyanshu Luhar] 06:13:16
+No. Let me just create a line border.
+
+[Priyanshu Luhar] 06:13:20
+No, we already had.
+
+[Priyanshu Luhar] 06:13:29
+Color. Let's do something better.
+
+[Priyanshu Luhar] 06:13:47
+Let's just do pure white. We'll keep it at 15.
+
+[Priyanshu Luhar] 06:13:53
+If this runs, I should at least push this onto GitHub.
+
+[Priyanshu Luhar] 06:14:10
+I'll order. Do I have anything tied?
+
+[Priyanshu Luhar] 06:14:24
+Okay, okay. This is what they created uh Tile. Okay. Default tile border.
+
+[Priyanshu Luhar] 06:14:33
+Okay.
+
+[Priyanshu Luhar] 06:14:39
+Okay, salt, water.
+
+[Priyanshu Luhar] 06:14:53
+Okay, let me first commit all of these.
+
+[Priyanshu Luhar] 06:15:01
+First come with a running. 76.15.
+
+[Priyanshu Luhar] 06:15:09
+Running window.
+
+[Priyanshu Luhar] 06:15:20
+And then… Okay, let me look at this.
+
+[Priyanshu Luhar] 06:15:24
+That's good. Yeah, good gift. At a new branch.
+
+[Priyanshu Luhar] 06:15:31
+No, I don't want no console.
+
+[Priyanshu Luhar] 06:15:36
+Me. Master branch will be deleted.
+
+[Priyanshu Luhar] 06:15:41
+Main branch. Needs to be
+
+[Priyanshu Luhar] 06:15:54
+I need to…
+
+[Priyanshu Luhar] 06:16:20
+10, 9, 8, 7, 6. Yeah, you see something. Okay.
+
+[Priyanshu Luhar] 06:16:25
+We got this figured out. We got GitHub figured out. We'll try working on… the color panels now.
+
+[Priyanshu Luhar] 06:16:38
+Create. Tiled border.
+
+[Priyanshu Luhar] 06:16:46
+My…
+
+[Priyanshu Luhar] 06:16:50
+Have it. Hacker.
+
+[Priyanshu Luhar] 06:16:54
+Pro.
+
+[Priyanshu Luhar] 06:16:59
+Yeah, it works. We'll just have to change the name.
+
+[Priyanshu Luhar] 06:17:07
+Okay.
+
+[Priyanshu Luhar] 06:17:37
+Font will be Well, since we're using the same font everywhere
+
+[Priyanshu Luhar] 06:18:14
+Okay, let's make a font. Want new.
+
+[Priyanshu Luhar] 06:18:21
+My phone. Equals new.
+
+[Priyanshu Luhar] 06:18:27
+On.
+
+[Priyanshu Luhar] 06:18:40
+Let me look at it. Okay, since we are not I don't want seaweeds.
+
+[Priyanshu Luhar] 06:18:49
+Okay, since we're not using this Start closing down a lot of them.
+
+[Priyanshu Luhar] 06:18:57
+20. Font in All tools.
+
+[Priyanshu Luhar] 06:19:06
+Let's see, five.
+
+[Priyanshu Luhar] 06:19:13
+Jealous.
+
+[Priyanshu Luhar] 06:19:29
+They want so many things.
+
+[Priyanshu Luhar] 06:19:46
+Okay, we want
+
+[Priyanshu Luhar] 06:20:08
+T1 star. Regular.
+
+[Priyanshu Luhar] 06:20:12
+Default size. To be… 36.
+
+[Priyanshu Luhar] 06:20:19
+Right. Unclosed character letter.
+
+[Priyanshu Luhar] 06:20:24
+Where?
+
+[Priyanshu Luhar] 06:21:06
+Ariel. Let's try this. Impact does not work.
+
+[Priyanshu Luhar] 06:21:15
+One dot.
+
+[Priyanshu Luhar] 06:21:36
+Oh. Yes.
+
+[Priyanshu Luhar] 06:21:50
+One. What's a string.
+
+[Priyanshu Luhar] 06:22:04
+Title.
+
+[Priyanshu Luhar] 06:22:15
+Okay, no, no. Wait all for order.
+
+[Priyanshu Luhar] 06:22:23
+Train.
+
+[Priyanshu Luhar] 06:22:33
+Okay. Let's try this.
+
+[Priyanshu Luhar] 06:23:33
+Okay, so this works.
+
+[Priyanshu Luhar] 06:23:39
+Now what we'll do is since we have this border strength I-N-T.
+
+[Priyanshu Luhar] 06:23:51
+Okay, I, T, I, and T.
+
+[Priyanshu Luhar] 06:26:21
+Yeah, yeah, yeah, yeah, yeah, yeah.
+
+[Priyanshu Luhar] 06:27:03
+Color. Yeah.
+
+[Priyanshu Luhar] 06:27:09
+No, it's horrible.
+
+[Priyanshu Luhar] 06:27:16
+Dark gray, white. You have something like… Hold on.
+
+[Priyanshu Luhar] 06:27:29
+Yellow. I'm running this.
+
+[Priyanshu Luhar] 06:27:43
+Okay, so now since I had this I'm going to make and work on the central part of the Cool.
+
+[Priyanshu Luhar] 06:27:55
+How much time you already spent. We already spent about An hour.
+
+[Priyanshu Luhar] 06:28:05
+So we'll now work on the actual part. Once we have a listener in here Which will take ace.
+
+[Priyanshu Luhar] 06:28:15
+Train.
+
+[Priyanshu Luhar] 06:28:22
+And just send the string back to me.
+
+[Priyanshu Luhar] 06:28:29
+I don't know. Okay.
+
+[Priyanshu Luhar] 06:28:39
+Okay, that needs to do… So, okay, for this part it might be better if I just move things along a little bit.
+
+[Priyanshu Luhar] 06:28:51
+So let's try this.
+
+[Priyanshu Luhar] 06:29:00
+Microphone can i change microphone? So now you're listening from my AirPods.
+
+[Priyanshu Luhar] 06:29:07
+And then… I was already working on it a little bit.
+
+[Priyanshu Luhar] 06:29:13
+It might be better this way. Or turn my video on.
+
+[Priyanshu Luhar] 06:29:22
+I'll stop my share for now. I've turned this video off.
+
+[Priyanshu Luhar] 06:29:29
+I'll turn video on from here.
+
+[Priyanshu Luhar] 06:30:07
+Okay, since this is slightly higher quality I'm going to want to use this one.
+
+[Priyanshu Luhar] 06:30:20
+Okay, I'll let it.
+
+[Priyanshu Luhar] 06:30:26
+Okay, almost drag.
+
+[Priyanshu Luhar] 06:30:31
+Let me see if it gets into focus
+
+[Priyanshu Luhar] 06:30:50
+Okay, I guess I'll have to. Let this here now again.
+
+[Priyanshu Luhar] 06:31:20
+Why is it not focusing?
+
+[Priyanshu Luhar] 06:31:25
+Okay, I guess I'll just have to go here. Let's see how it works.
+
+[Priyanshu Luhar] 06:31:35
+So when…
+
+[Priyanshu Luhar] 06:31:41
+Addis. Select.
+
+[Priyanshu Luhar] 06:31:45
+It. Read.
+
+[Priyanshu Luhar] 06:31:52
+Input box. Eight.
+
+[Priyanshu Luhar] 06:31:58
+Stores. And two.
+
+[Priyanshu Luhar] 06:32:04
+String.
+
+[Priyanshu Luhar] 06:32:09
+And…
+
+[Priyanshu Luhar] 06:32:13
+Probably does some input validation on it.
+
+[Priyanshu Luhar] 06:32:31
+And then… Gets.
+
+[Priyanshu Luhar] 06:32:37
+Current. Timestamp.
+
+[Priyanshu Luhar] 06:32:45
+And… opens file and Append.
+
+[Priyanshu Luhar] 06:32:58
+And write.
+
+[Priyanshu Luhar] 06:33:06
+Then… saves.
+
+[Priyanshu Luhar] 06:33:10
+File. Reloads.
+
+[Priyanshu Luhar] 06:33:16
+Duh. Okay.
+
+[Priyanshu Luhar] 06:33:20
+That's all that needs to be done. And the pain should always be reading from that file.
+
+[Priyanshu Luhar] 06:33:30
+So there should not be anything else. Makes pretty clear.
+
+[Priyanshu Luhar] 06:33:36
+Your sense. To what we're supposed to do.
+
+[Priyanshu Luhar] 06:33:49
+Okay.
+
+[Priyanshu Luhar] 06:33:55
+That's it. Disconnect.
+
+[Priyanshu Luhar] 06:34:01
+No. I'll turn this camera off. I'll turn this camera on again.
+
+[Priyanshu Luhar] 06:34:07
+And I'll start sharing both my screens. Once again.
+
+[Priyanshu Luhar] 06:34:15
+So we now have a tracker. We just now need to have some sort of table over here.
+
+[Priyanshu Luhar] 06:34:26
+And two files. One log and one unlock.
+
+[Priyanshu Luhar] 06:34:32
+Changes unversion file. What is the unversioned file?
+
+[Priyanshu Luhar] 06:34:54
+Others. Go ahead and push.
+
+[Priyanshu Luhar] 06:34:58
+We didn't push anyways push And… We should have some things over here.
+
+[Priyanshu Luhar] 06:35:19
+Have it on email.
+
+[Priyanshu Luhar] 06:35:27
+No, no. Okay.
+
+[Priyanshu Luhar] 06:35:33
+Now, since we've already written these things
+
+[Priyanshu Luhar] 06:35:39
+We should. Stop this.
+
+[Priyanshu Luhar] 06:35:44
+Let me look at the… dispersed.
+
+[Priyanshu Luhar] 06:35:48
+So you have two texts. And table options.
+
+[Priyanshu Luhar] 06:35:55
+To go over here, have it.
+
+[Priyanshu Luhar] 06:36:06
+What is the difference between J table and JList?
+
+[Priyanshu Luhar] 06:36:41
+Didn't teach anything.
+
+[Priyanshu Luhar] 06:36:49
+A list of lenders.
+
+[Priyanshu Luhar] 06:37:00
+Okay, this would be better. Because…
+
+[Priyanshu Luhar] 06:37:23
+I'm standing with energy.
+
+[Priyanshu Luhar] 06:38:02
+Okay, so… we have these things. I could add a J table in here.
+
+[Priyanshu Luhar] 06:38:16
+I don't mean.
+
+[Priyanshu Luhar] 06:38:21
+Boat size.
+
+[Priyanshu Luhar] 06:38:42
+Table header.
+
+[Priyanshu Luhar] 06:38:59
+My table. Over here, let me go to my table.
+
+[Priyanshu Luhar] 06:39:42
+I'm running this we see a table. Technically this should be the table, right?
+
+[Priyanshu Luhar] 06:39:50
+Yeah.
+
+[Priyanshu Luhar] 06:40:03
+Let's say table.
+
+[Priyanshu Luhar] 06:40:27
+Okay.
+
+[Priyanshu Luhar] 06:41:58
+I don't know if you want to make a new function out of it, but we'll try so
+
+[Priyanshu Luhar] 06:42:12
+Public.
+
+[Priyanshu Luhar] 06:42:20
+And in a new class.
+
+[Priyanshu Luhar] 06:42:41
+Okay.
+
+[Priyanshu Luhar] 06:42:51
+Let's just start over here.
+
+[Priyanshu Luhar] 06:43:08
+I'd like. String
+
+[Priyanshu Luhar] 06:43:16
+Named.
+
+[Priyanshu Luhar] 06:43:23
+I bet.
+
+[Priyanshu Luhar] 06:43:30
+And date.
+
+[Priyanshu Luhar] 06:43:49
+Number. First name, last name, sports.
+
+[Priyanshu Luhar] 06:43:56
+Okay, so that's going to be the point-to-pointers.
+
+[Priyanshu Luhar] 06:44:02
+Public. On chat. Erase.
+
+[Priyanshu Luhar] 06:44:09
+Data.
+
+[Priyanshu Luhar] 06:44:17
+Hello. My… But one.
+
+[Priyanshu Luhar] 06:44:27
+Also, how do you return to timestamp?
+
+[Priyanshu Luhar] 06:44:46
+Okay, that will make sense. Okay. So get timestamp.
+
+[Priyanshu Luhar] 06:44:56
+Object type one name. I'll look at it.
+
+[Priyanshu Luhar] 06:45:11
+Bring. Get time.
+
+[Priyanshu Luhar] 06:45:25
+Local. Date, time.
+
+[Priyanshu Luhar] 06:45:31
+Now equals. Well, I can just copy this.
+
+[Priyanshu Luhar] 06:45:37
+Very well formatted.
+
+[Priyanshu Luhar] 06:45:43
+As far as this is concerned, this is nothing
+
+[Priyanshu Luhar] 06:46:17
+Okay.
+
+[Priyanshu Luhar] 06:46:38
+Okay.
+
+[Priyanshu Luhar] 06:46:50
+Let's try printing this out.
+
+[Priyanshu Luhar] 06:46:57
+Good time.
+
+[Priyanshu Luhar] 06:47:02
+After habit.
+
+[Priyanshu Luhar] 06:47:12
+Right. We use startup expression.
+
+[Priyanshu Luhar] 06:47:18
+Public. What?
+
+[Priyanshu Luhar] 06:47:23
+Okay, okay.
+
+[Priyanshu Luhar] 06:47:30
+These things usually… And out here.
+
+[Priyanshu Luhar] 06:47:35
+So let's try this.
+
+[Priyanshu Luhar] 06:47:43
+Thoughts. One time is shown like this.
+
+[Priyanshu Luhar] 06:47:49
+What I wanted with PDT.
+
+[Priyanshu Luhar] 06:47:57
+Day, month. Okay, date.
+
+[Priyanshu Luhar] 06:48:04
+Pvt. Well, I also want to hear, sir.
+
+[Priyanshu Luhar] 06:48:12
+We'll change that.
+
+[Priyanshu Luhar] 06:48:24
+To get day name in.
+
+[Priyanshu Luhar] 06:48:29
+Job.
+
+[Priyanshu Luhar] 06:48:42
+To do it ourselves.
+
+[Priyanshu Luhar] 06:49:15
+Date.
+
+[Priyanshu Luhar] 06:49:22
+Okay.
+
+[Priyanshu Luhar] 06:49:39
+Okay.
+
+[Priyanshu Luhar] 06:50:00
+And then Day-Day.
+
+[Priyanshu Luhar] 06:50:23
+Okay, this was good.
+
+[Priyanshu Luhar] 06:50:31
+Dang, four man. Okay.
+
+[Priyanshu Luhar] 06:50:36
+When did I start about two minutes ago, so…
+
+[Priyanshu Luhar] 06:50:51
+Hmm.
+
+[Priyanshu Luhar] 06:50:55
+Let's close this first.
+
+[Priyanshu Luhar] 06:51:00
+Okay. Let's try them.
+
+[Priyanshu Luhar] 06:51:09
+Thursday. I got that.
+
+[Priyanshu Luhar] 06:51:18
+If that's EEE, that means…
+
+[Priyanshu Luhar] 06:51:26
+Why can't I type?
+
+[Priyanshu Luhar] 06:51:40
+It's just that simple. I assumed that it would be harder, but no.
+
+[Priyanshu Luhar] 06:51:45
+So we discussed this.
+
+[Priyanshu Luhar] 06:51:53
+This this the date.
+
+[Priyanshu Luhar] 06:52:08
+Okay.
+
+[Priyanshu Luhar] 06:52:31
+What?
+
+[Priyanshu Luhar] 06:52:40
+Start CDT. Okay, yeah.
+
+[Priyanshu Luhar] 06:53:01
+Z, Z, Z. Okay, this is a format they're using.
+
+[Priyanshu Luhar] 06:53:15
+Okay, where did I go wrong? E-e-e-m-t-t.
+
+[Priyanshu Luhar] 06:53:25
+Rmmczz.
+
+[Priyanshu Luhar] 06:53:36
+74.
+
+[Priyanshu Luhar] 06:53:42
+And 38. 38 will be around here.
+
+[Priyanshu Luhar] 06:53:50
+Exception.
+
+[Priyanshu Luhar] 06:54:01
+Okay, it's not able to pull it.
+
+[Priyanshu Luhar] 06:54:10
+To local date. Okay, I guess we'll need local time.
+
+[Priyanshu Luhar] 06:54:23
+I'm not here.
+
+[Priyanshu Luhar] 06:54:28
+To… Diamonds down in So…
+
+[Priyanshu Luhar] 06:55:41
+Temporal disks because this might be better.
+
+[Priyanshu Luhar] 06:56:32
+Local retail. Oh, zoned.
+
+[Priyanshu Luhar] 06:56:38
+Eight time now.
+
+[Priyanshu Luhar] 06:56:46
+Pacific Standard Time. Okay. Oh, so if this is daylight time means that this is old.
+
+[Priyanshu Luhar] 06:56:56
+This is owed. This was made in spring. Well, we're going to get daylight times anyways in a couple of weeks.
+
+[Priyanshu Luhar] 06:57:05
+So… Please, that's good. So I know how to get time now.
+
+[Priyanshu Luhar] 06:57:18
+So on click
+
+[Priyanshu Luhar] 06:57:24
+True.
+
+[Priyanshu Luhar] 06:57:28
+Current time equals Get time.
+
+[Priyanshu Luhar] 06:57:42
+Then what? We want to get input from here.
+
+[Priyanshu Luhar] 06:57:56
+Okay. To get input from a text file.
+
+[Priyanshu Luhar] 06:58:10
+It has been an hour 34 minutes.
+
+[Priyanshu Luhar] 06:58:16
+It's almost 7 o'clock. People must be coming to the university now.
+
+[Priyanshu Luhar] 06:58:24
+Is that caffeine? 23 milligrams a can.
+
+[Priyanshu Luhar] 06:58:30
+Not too bad.
+
+[Priyanshu Luhar] 06:58:59
+And it's good. Time.
+
+[Priyanshu Luhar] 06:59:06
+At 14 when you last? Fuck this shit, man.
+
+[Priyanshu Luhar] 06:59:10
+We just want to get things working.
+
+[Priyanshu Luhar] 06:59:16
+Just one comment to origin main.
+
+[Priyanshu Luhar] 06:59:22
+Or shamel pain.
+
+[Priyanshu Luhar] 06:59:48
+Now, how to get input from
+
+[Priyanshu Luhar] 06:59:57
+Oh. Okay.
+
+[Priyanshu Luhar] 07:00:02
+Say text field in Java.
+
+[Priyanshu Luhar] 07:00:25
+Okay. Seems like we just get input string input.
+
+[Priyanshu Luhar] 07:00:33
+Is equal to
+
+[Priyanshu Luhar] 07:00:38
+We have J text field dot get
+
+[Priyanshu Luhar] 07:00:45
+Text. 58. Okay, this one's private.
+
+[Priyanshu Luhar] 07:00:53
+We're going to have to pass. 8 plus.
+
+[Priyanshu Luhar] 07:01:03
+But… Oh.
+
+[Priyanshu Luhar] 07:01:10
+Wrong spelling. Have a… H.
+
+[Priyanshu Luhar] 07:01:18
+So we'll be passing something.
+
+[Priyanshu Luhar] 07:01:25
+Transfer dot get text.
+
+[Priyanshu Luhar] 07:01:31
+H.
+
+[Priyanshu Luhar] 07:01:37
+Say text field. Oh, okay, okay.
+
+[Priyanshu Luhar] 07:01:46
+That was stupid of me. We don't need to pass that Fucking cross.
+
+[Priyanshu Luhar] 07:01:53
+Just got the text. No.
+
+[Priyanshu Luhar] 07:01:57
+What I'm going to do first is that first Interesting.
+
+[Priyanshu Luhar] 07:02:03
+Out. Okay.
+
+[Priyanshu Luhar] 07:02:07
+Get time. No. Hard time.
+
+[Priyanshu Luhar] 07:02:15
+It doesn't look good there.
+
+[Priyanshu Luhar] 07:02:22
+End quote.
+
+[Priyanshu Luhar] 07:02:28
+Status running. So right now we don't have anything.
+
+[Priyanshu Luhar] 07:02:36
+Bye. Two words.
+
+[Priyanshu Luhar] 07:02:42
+On add it to print these out. Great. It has those strings.
+
+[Priyanshu Luhar] 07:02:49
+Informed that into one thing. So…
+
+[Priyanshu Luhar] 07:03:01
+String. Log.
+
+[Priyanshu Luhar] 07:03:07
+Iron would be…
+
+[Priyanshu Luhar] 07:03:12
+Input plus
+
+[Priyanshu Luhar] 07:03:16
+Space and and. I'll just add and.
+
+[Priyanshu Luhar] 07:03:21
+Trust. Or on time.
+
+[Priyanshu Luhar] 07:03:28
+No log. Input.
+
+[Priyanshu Luhar] 07:03:40
+And if I use a CSV and stuff Okay. Works.
+
+[Priyanshu Luhar] 07:03:46
+Okay, I should at least have… space between them so
+
+[Priyanshu Luhar] 07:04:05
+Okay, I see it over here. That's one part done.
+
+[Priyanshu Luhar] 07:04:10
+And once it's done, I just want to
+
+[Priyanshu Luhar] 07:04:20
+Shit. Text.
+
+[Priyanshu Luhar] 07:04:29
+Be this.
+
+[Priyanshu Luhar] 07:04:37
+Okay. That's what we wanted. Inputs figured out.
+
+[Priyanshu Luhar] 07:04:48
+Inputs figured out.
+
+[Priyanshu Luhar] 07:04:57
+So now what we're going to do is that we are going to Well, first of all, we'll add this in the log.
+
+[Priyanshu Luhar] 07:05:09
+Thanks.
+
+[Priyanshu Luhar] 07:05:14
+Input. Six.
+
+[Priyanshu Luhar] 07:05:21
+Okay, we start this like six, seven minutes ago, so…
+
+[Priyanshu Luhar] 07:05:44
+2 to 2.
+
+[Priyanshu Luhar] 07:05:52
+Do I have a tracker.
+
+[Priyanshu Luhar] 07:06:07
+Inshalla application.
+
+[Priyanshu Luhar] 07:06:26
+It wants to connect to something.
+
+[Priyanshu Luhar] 07:06:32
+Okay, we don't want these.
+
+[Priyanshu Luhar] 07:06:39
+Would be…
+
+[Priyanshu Luhar] 07:06:43
+Input. Let's just leave it like this.
+
+[Priyanshu Luhar] 07:06:48
+Input box dot. Get text.
+
+[Priyanshu Luhar] 07:07:06
+Just try rerunning it, see if it actually works.
+
+[Priyanshu Luhar] 07:07:21
+Okay. So.
+
+[Priyanshu Luhar] 07:07:41
+Okay, so… the application works.
+
+[Priyanshu Luhar] 07:07:46
+Now, what do we do?
+
+[Priyanshu Luhar] 07:08:02
+In this commit and push. We don't push anyway so okay
+
+[Priyanshu Luhar] 07:08:14
+A lot of comments. So.
+
+[Priyanshu Luhar] 07:08:26
+I have the table now. I'm not doing anything with the table.
+
+[Priyanshu Luhar] 07:08:33
+On click. It reads input, stores it into a string.
+
+[Priyanshu Luhar] 07:08:38
+I'm not worried about validation yet right now. Its current timestamp opens file and appends it okay white spiral.
+
+[Priyanshu Luhar] 07:08:49
+Sales file reloads the pane. Okay.
+
+[Priyanshu Luhar] 07:08:58
+Let's learn about files in Java.
+
+[Priyanshu Luhar] 07:09:19
+I hope I didn't rush up so bad because I think I've pressed buttons which I shouldn't have.
+
+[Priyanshu Luhar] 07:09:38
+Okay. I think you will get for now.
+
+[Priyanshu Luhar] 07:10:55
+Okay, so… Now we'll work with files.
+
+[Priyanshu Luhar] 07:10:59
+And figure out how I can write this to a file.
+
+[Priyanshu Luhar] 07:11:24
+I want to append to a file in So… I owe.
+
+[Priyanshu Luhar] 07:11:37
+Okay, we'll have to do some exception handling, I guess.
+
+[Priyanshu Luhar] 07:11:50
+So now we'll try with this. Spring.
+
+[Priyanshu Luhar] 07:11:55
+File name.
+
+[Priyanshu Luhar] 07:12:03
+I quote, two. Previous.txt.
+
+[Priyanshu Luhar] 07:12:34
+No, I think we'll need this. And input.
+
+[Priyanshu Luhar] 07:12:40
+And… input box dot get text.
+
+[Priyanshu Luhar] 07:12:49
+Input. S.
+
+[Priyanshu Luhar] 07:12:58
+Shift.
+
+[Priyanshu Luhar] 07:13:07
+0, 0. Is going to be…
+
+[Priyanshu Luhar] 07:13:32
+Input That's it.
+
+[Priyanshu Luhar] 07:13:44
+Also, we will now open the file Let us not try but Because Google's AI is not that bad, actually.
+
+[Priyanshu Luhar] 07:13:54
+File, file, new file, file name. File dot writer, new file writer true.
+
+[Priyanshu Luhar] 07:14:02
+Software writer, new cohort writer. Text to append.
+
+[Priyanshu Luhar] 07:14:10
+Okay.
+
+[Priyanshu Luhar] 07:14:15
+Let's start. Bye.
+
+[Priyanshu Luhar] 07:14:21
+All right, question for you.
+
+[Priyanshu Luhar] 07:14:41
+Iphone.
+
+[Priyanshu Luhar] 07:14:48
+On the name and cash block, sir. Maybe we should listen to them.
+
+[Priyanshu Luhar] 07:14:57
+Catch.
+
+[Priyanshu Luhar] 07:15:02
+Thank you. Okay, powerful, new path.
+
+[Priyanshu Luhar] 07:15:12
+We'll change.
+
+[Priyanshu Luhar] 07:15:20
+Writer. All right.
+
+[Priyanshu Luhar] 07:15:28
+New. File writer.
+
+[Priyanshu Luhar] 07:15:35
+Yes, that's appending. Yeah. Buffered.
+
+[Priyanshu Luhar] 07:15:44
+All right, true. Of a writer.
+
+[Priyanshu Luhar] 07:15:47
+Is equal to new. Offer writer.
+
+[Priyanshu Luhar] 07:15:54
+Alright, yeah. Both would write or die.
+
+[Priyanshu Luhar] 07:16:01
+Right. Log.
+
+[Priyanshu Luhar] 07:16:06
+Input. Buffer dot.
+
+[Priyanshu Luhar] 07:16:11
+Close.
+
+[Priyanshu Luhar] 07:16:19
+And… We'll copy this from here.
+
+[Priyanshu Luhar] 07:16:27
+So. We'll comment this off for now.
+
+[Priyanshu Luhar] 07:16:33
+What error do we have.
+
+[Priyanshu Luhar] 07:17:02
+Such aisle exception.
+
+[Priyanshu Luhar] 07:17:07
+Eat a cat message.
+
+[Priyanshu Luhar] 07:17:12
+Running it.
+
+[Priyanshu Luhar] 07:17:32
+And… Good.
+
+[Priyanshu Luhar] 07:17:38
+Create a new file.
+
+[Priyanshu Luhar] 07:17:50
+To load a CSV. Maybe that should be the next task but Our task is not finding CSV.
+
+[Priyanshu Luhar] 07:18:07
+Okay. That's it.
+
+[Priyanshu Luhar] 07:18:14
+And I guess if I was to write something else. Yada, dabba.
+
+[Priyanshu Luhar] 07:18:20
+To add.
+
+[Priyanshu Luhar] 07:18:29
+Oh. No. Okay.
+
+[Priyanshu Luhar] 07:18:33
+Still.
+
+[Priyanshu Luhar] 07:18:37
+Select this.
+
+[Priyanshu Luhar] 07:18:55
+Okay, what do I want to do? Log input.
+
+[Priyanshu Luhar] 07:19:28
+It's just persistent data. Start the application again.
+
+[Priyanshu Luhar] 07:19:36
+I'm going to write again.
+
+[Priyanshu Luhar] 07:19:45
+See? Dollars.
+
+[Priyanshu Luhar] 07:19:50
+Great. That's what we're going to do. We're going to stop those.
+
+[Priyanshu Luhar] 07:19:57
+Okay, so now… What's the time? It's 7-19.
+
+[Priyanshu Luhar] 07:20:02
+I still have some time. I guess I've already figured out the saving part.
+
+[Priyanshu Luhar] 07:20:08
+Now I need to figure out the loading part. How am I going to load?
+
+[Priyanshu Luhar] 07:20:14
+The objects. First of all, I want to know how can I print out the objects print out the objects Let's work with JTable.
+
+[Priyanshu Luhar] 07:20:27
+Data column length. Okay.
+
+[Priyanshu Luhar] 07:20:37
+Table. Equals.
+
+[Priyanshu Luhar] 07:20:49
+So now load. Data.
+
+[Priyanshu Luhar] 07:20:54
+Public. One.
+
+[Priyanshu Luhar] 07:21:00
+Load. Data.
+
+[Priyanshu Luhar] 07:21:08
+The only thing I do is that. I'll open this.
+
+[Priyanshu Luhar] 07:21:16
+J table. My table.
+
+[Priyanshu Luhar] 07:21:37
+All right. And T.
+
+[Priyanshu Luhar] 07:21:46
+So you put zero.
+
+[Priyanshu Luhar] 07:21:53
+Go to.
+
+[Priyanshu Luhar] 07:22:15
+Total. Let's see.
+
+[Priyanshu Luhar] 07:22:25
+Yes. Auto.
+
+[Priyanshu Luhar] 07:22:31
+Total plus one.
+
+[Priyanshu Luhar] 07:22:57
+Let's forget about this for now.
+
+[Priyanshu Luhar] 07:23:14
+It's got an object.
+
+[Priyanshu Luhar] 07:23:47
+Okay.
+
+[Priyanshu Luhar] 07:37:48
+Okay, the tables are a little harder.
+
+[Priyanshu Luhar] 07:37:58
+Let's do this command x
+
+[Priyanshu Luhar] 07:38:03
+Let me just copy this.
+
+[Priyanshu Luhar] 07:38:15
+One table.
+
+[Priyanshu Luhar] 07:39:18
+Okay. Up until this one, everything runs fine.
+
+[Priyanshu Luhar] 07:40:02
+One row two columns.
+
+[Priyanshu Luhar] 07:41:21
+Okay, I guess. J table.
+
+[Priyanshu Luhar] 07:41:26
+And her.
+
+[Priyanshu Luhar] 07:41:42
+This doesn't help.
+
+[Priyanshu Luhar] 07:42:00
+And chase crop in.
+
+[Priyanshu Luhar] 07:42:50
+Okay.
+
+[Priyanshu Luhar] 07:43:03
+Let's try and get this working.
+
+[Priyanshu Luhar] 07:43:42
+Auto header.
+
+[Priyanshu Luhar] 07:43:55
+Let's just flip it to see.
+
+[Priyanshu Luhar] 07:44:02
+I'm sure you can do this. What we started with Is… Okay.
+
+[Priyanshu Luhar] 07:45:14
+J table. It's dropped.
+
+[Priyanshu Luhar] 07:45:54
+Okay. Default.
+
+[Priyanshu Luhar] 07:46:52
+Okay, let's try it this way.
+
+[Priyanshu Luhar] 07:47:07
+Default.
+
+[Priyanshu Luhar] 07:47:12
+Table model. Model equals.
+
+[Priyanshu Luhar] 07:47:18
+Default.
+
+[Priyanshu Luhar] 07:47:31
+Kit model.
+
+[Priyanshu Luhar] 07:47:38
+Got it. Call.
+
+[Priyanshu Luhar] 07:47:45
+But…
+
+[Priyanshu Luhar] 07:47:49
+Okay.
+
+[Priyanshu Luhar] 07:48:01
+Third column. Amplifiers.
+
+[Priyanshu Luhar] 07:48:06
+Call. J table header.
+
+[Priyanshu Luhar] 07:48:14
+A equals table. So hit table header.
+
+[Priyanshu Luhar] 07:48:26
+Background. Colored or let's go with You know?
+
+[Priyanshu Luhar] 07:48:42
+Let's hold on a little while.
+
+[Priyanshu Luhar] 07:49:15
+Still a habit.
+
+[Priyanshu Luhar] 07:50:24
+Okay, now the timeline is getting pretty close. I still have an hour.
+
+[Priyanshu Luhar] 07:50:29
+So would like to get this get this done before.
+
+[Priyanshu Luhar] 07:50:46
+J table, my table equals new this.
+
+[Priyanshu Luhar] 07:50:58
+Okay.
+
+[Priyanshu Luhar] 07:51:32
+Okay.
+
+[Priyanshu Luhar] 07:52:02
+Ju panel contempt of paint. Okay.
+
+[Priyanshu Luhar] 07:52:13
+What?
+
+[Priyanshu Luhar] 07:52:35
+My pain.
+
+[Priyanshu Luhar] 07:52:49
+And the context.
+
+[Priyanshu Luhar] 07:53:13
+Okay, since this might take long.
+
+[Priyanshu Luhar] 07:53:24
+Sure, actually. Put mine afterwards.
+
+[Priyanshu Luhar] 07:53:29
+So that… I know. Okay.
+
+[Priyanshu Luhar] 07:53:38
+Oh, but I put mine at 1040.
+
+[Priyanshu Luhar] 07:53:54
+Okay.
+
+[Priyanshu Luhar] 07:54:05
+Why is my stable pain not showing up?
+
+[Priyanshu Luhar] 07:55:24
+Okay.
+
+[Priyanshu Luhar] 07:55:32
+Yep.
+
+[Priyanshu Luhar] 07:56:01
+Okay, let's try it this way. We have all those things.
+
+[Priyanshu Luhar] 07:56:11
+No data
+
+[Priyanshu Luhar] 07:56:54
+Okay, at least this works.
+
+[Priyanshu Luhar] 07:57:16
+Does write to the file.
+
+[Priyanshu Luhar] 07:57:25
+It has the frame. The scroll pane the table and the table
+
+[Priyanshu Luhar] 07:59:13
+Okay, so writing it. Might as well write it.
+
+[Priyanshu Luhar] 07:59:46
+Exciting.
+
+[Priyanshu Luhar] 07:59:54
+Buffalo.
+
+[Priyanshu Luhar] 08:00:14
+Reader. Reader.
+
+[Priyanshu Luhar] 08:00:21
+Fund.
+
+[Priyanshu Luhar] 08:00:29
+Now, since we have this.
+
+[Priyanshu Luhar] 08:00:38
+Let's fine.
+
+[Priyanshu Luhar] 08:00:43
+List.
+
+[Priyanshu Luhar] 08:00:49
+New playlist.
+
+[Priyanshu Luhar] 08:01:04
+Wow. Sgr.
+
+[Priyanshu Luhar] 08:01:15
+Read line.
+
+[Priyanshu Luhar] 08:01:22
+No.
+
+[Priyanshu Luhar] 08:03:11
+Okay, maybe I should change mine too.
+
+[Priyanshu Luhar] 08:09:21
+Yeah.
+
+[Priyanshu Luhar] 08:10:09
+Exception at where
+
+[Priyanshu Luhar] 08:10:23
+Oh, okay.
+
+[Priyanshu Luhar] 08:10:53
+Okay, it's adding that.
+
+[Priyanshu Luhar] 08:12:22
+Data.
+
+[Priyanshu Luhar] 08:12:31
+A relay list.
+
+[Priyanshu Luhar] 08:12:59
+Let's look at this.
+
+[Priyanshu Luhar] 08:13:06
+New row.
+
+[Priyanshu Luhar] 08:13:12
+Add low personal row. Okay, this might be the best way.
+
+[Priyanshu Luhar] 08:13:21
+Let's see now.
+
+[Priyanshu Luhar] 08:13:33
+Nr equals 2. Input.
+
+[Priyanshu Luhar] 08:13:42
+Good time.
+
+[Priyanshu Luhar] 08:13:46
+Data.
+
+[Priyanshu Luhar] 08:13:56
+Add role.
+
+[Priyanshu Luhar] 08:14:11
+Okay, we'll just have to check this out.
+
+[Priyanshu Luhar] 08:14:27
+And row.
+
+[Priyanshu Luhar] 08:14:33
+Question array. Data.
+
+[Priyanshu Luhar] 08:14:38
+And the new array.
+
+[Priyanshu Luhar] 08:14:52
+One, zero, two.
+
+[Priyanshu Luhar] 08:15:27
+Okay, let's see.
+
+[Priyanshu Luhar] 08:15:32
+Okay, I guess that's working now. I don't see any errors.
+
+[Priyanshu Luhar] 08:15:37
+So.
+
+[Priyanshu Luhar] 08:15:44
+We got that figured out. Now we'll try to get this figured out.
+
+[Priyanshu Luhar] 08:16:23
+Control pain.
+
+[Priyanshu Luhar] 08:16:45
+Okay, I still can't see it. So the issue is still there.
+
+[Priyanshu Luhar] 08:16:53
+This works fine.
+
+[Priyanshu Luhar] 08:17:01
+Okay. To sent out.
+
+[Priyanshu Luhar] 08:17:07
+Return.
+
+[Priyanshu Luhar] 08:17:20
+Okay.
+
+[Priyanshu Luhar] 08:17:28
+So I have… Continues.
+
+[Priyanshu Luhar] 08:17:33
+String column names and string. And all the data.
+
+[Priyanshu Luhar] 08:17:48
+Data avatar column names.
+
+[Priyanshu Luhar] 08:17:58
+Equals.
+
+[Priyanshu Luhar] 08:18:20
+Is scroll pain. J.p.
+
+[Priyanshu Luhar] 08:18:27
+Okay.
+
+[Priyanshu Luhar] 08:18:44
+Ad.
+
+[Priyanshu Luhar] 08:19:45
+Okay, let's look at this.
+
+[Priyanshu Luhar] 08:21:30
+I'm going to add a jscroll pane.
+
+[Priyanshu Luhar] 08:22:52
+Okay, I guess I'm stuck at this point because, well… I'm not able to move forward.
+
+[Priyanshu Luhar] 08:23:06
+No matter what I do, the table is still empty.
+
+[Priyanshu Luhar] 08:23:14
+And these people get fables out of nowhere.
+
+[Priyanshu Luhar] 08:23:42
+Sure. Yeah. But yes, we have these things.
+
+[Priyanshu Luhar] 08:24:04
+You could also add them here.
+
+[Priyanshu Luhar] 08:24:12
+Good frame.
+
+[Priyanshu Luhar] 08:25:43
+Okay.
+
+[Priyanshu Luhar] 08:26:38
+In shape brain does.
+
+[Priyanshu Luhar] 08:27:40
+Let's try this. Okay.
+
+[Priyanshu Luhar] 08:28:05
+I have some of it down here.
+
+[Priyanshu Luhar] 08:28:25
+I have looked at my table to get model.
+
+[Priyanshu Luhar] 08:28:33
+This has been made. Data column names.
+
+[Priyanshu Luhar] 08:28:59
+Okay.
+
+[Priyanshu Luhar] 08:29:11
+No, this will be new.
+
+[Priyanshu Luhar] 08:29:52
+All of you. Peaceful pain.
+
+[Priyanshu Luhar] 08:30:06
+One of the lobby table.
+
+[Priyanshu Luhar] 08:30:14
+An army table.
+
+[Priyanshu Luhar] 08:30:26
+Okay, scroll. And…
+
+[Priyanshu Luhar] 08:30:58
+Okay.
+
+[Priyanshu Luhar] 08:31:04
+See, where does this land us?
+
+[Priyanshu Luhar] 08:31:11
+Oops, the more data.
+
+[Priyanshu Luhar] 08:35:08
+Well, I think we'll end over here. I'm not getting any further if I figure it out And it's good for me.
+
+[Priyanshu Luhar] 08:35:18
+All right, thanks.
+
